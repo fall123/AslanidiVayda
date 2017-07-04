@@ -31,10 +31,10 @@
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
-            this.slojenie = new System.Windows.Forms.Button();
-            this.vichitanye = new System.Windows.Forms.Button();
-            this.umnojenie = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.add = new System.Windows.Forms.Button();
+            this.sub = new System.Windows.Forms.Button();
+            this.mul = new System.Windows.Forms.Button();
+            this.div = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox4
@@ -58,53 +58,53 @@
             this.textBox6.Size = new System.Drawing.Size(100, 22);
             this.textBox6.TabIndex = 2;
             // 
-            // slojenie
+            // add
             // 
-            this.slojenie.Location = new System.Drawing.Point(27, 102);
-            this.slojenie.Name = "slojenie";
-            this.slojenie.Size = new System.Drawing.Size(75, 23);
-            this.slojenie.TabIndex = 3;
-            this.slojenie.Text = "+";
-            this.slojenie.UseVisualStyleBackColor = true;
-            this.slojenie.Click += new System.EventHandler(this.slojenie_Click_1);
+            this.add.Location = new System.Drawing.Point(27, 102);
+            this.add.Name = "add";
+            this.add.Size = new System.Drawing.Size(75, 23);
+            this.add.TabIndex = 3;
+            this.add.Text = "+";
+            this.add.UseVisualStyleBackColor = true;
+            this.add.Click += new System.EventHandler(this.buttonClick);
             // 
-            // vichitanye
+            // sub
             // 
-            this.vichitanye.Location = new System.Drawing.Point(108, 102);
-            this.vichitanye.Name = "vichitanye";
-            this.vichitanye.Size = new System.Drawing.Size(75, 23);
-            this.vichitanye.TabIndex = 4;
-            this.vichitanye.Text = "-";
-            this.vichitanye.UseVisualStyleBackColor = true;
-            this.vichitanye.Click += new System.EventHandler(this.vichitanye_Click);
+            this.sub.Location = new System.Drawing.Point(108, 102);
+            this.sub.Name = "sub";
+            this.sub.Size = new System.Drawing.Size(75, 23);
+            this.sub.TabIndex = 4;
+            this.sub.Text = "-";
+            this.sub.UseVisualStyleBackColor = true;
+            this.sub.Click += new System.EventHandler(this.buttonClick);
             // 
-            // umnojenie
+            // mul
             // 
-            this.umnojenie.Location = new System.Drawing.Point(27, 131);
-            this.umnojenie.Name = "umnojenie";
-            this.umnojenie.Size = new System.Drawing.Size(75, 23);
-            this.umnojenie.TabIndex = 5;
-            this.umnojenie.Text = "*";
-            this.umnojenie.UseVisualStyleBackColor = true;
-            this.umnojenie.Click += new System.EventHandler(this.umnojenie_Click);
+            this.mul.Location = new System.Drawing.Point(27, 131);
+            this.mul.Name = "mul";
+            this.mul.Size = new System.Drawing.Size(75, 23);
+            this.mul.TabIndex = 5;
+            this.mul.Text = "*";
+            this.mul.UseVisualStyleBackColor = true;
+            this.mul.Click += new System.EventHandler(this.buttonClick);
             // 
-            // button6
+            // div
             // 
-            this.button6.Location = new System.Drawing.Point(108, 131);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
-            this.button6.TabIndex = 6;
-            this.button6.Text = "/";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.delenie_Click);
+            this.div.Location = new System.Drawing.Point(108, 131);
+            this.div.Name = "div";
+            this.div.Size = new System.Drawing.Size(75, 23);
+            this.div.TabIndex = 6;
+            this.div.Text = "/";
+            this.div.UseVisualStyleBackColor = true;
+            this.div.Click += new System.EventHandler(this.buttonClick);
             // 
             // Form1
             // 
             this.ClientSize = new System.Drawing.Size(786, 483);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.umnojenie);
-            this.Controls.Add(this.vichitanye);
-            this.Controls.Add(this.slojenie);
+            this.Controls.Add(this.div);
+            this.Controls.Add(this.mul);
+            this.Controls.Add(this.sub);
+            this.Controls.Add(this.add);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
@@ -119,10 +119,10 @@
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.Button slojenie;
-        private System.Windows.Forms.Button vichitanye;
-        private System.Windows.Forms.Button umnojenie;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button add;
+        private System.Windows.Forms.Button sub;
+        private System.Windows.Forms.Button mul;
+        private System.Windows.Forms.Button div;
     }
 }
 
