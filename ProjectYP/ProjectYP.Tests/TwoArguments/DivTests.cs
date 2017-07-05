@@ -4,14 +4,14 @@ using ProjectYP.TwoArguments;
 namespace ProjectYP.Tests.TwoArguments
 {
     [TestFixture]
-    public class AddTests
+    public class DivTests
     {
         [Test]
         public void CalculateTest()
         {
-            ITwoArgumentsCalculator calculator=new Add();
-            double result = calculator.Calculate(2,5);
-            Assert.AreEqual(7, result);
+            ITwoArgumentsCalculator calculator = new Div();
+            double result = calculator.Calculate(20, 5);
+            Assert.AreEqual(4, result);
         }
     }
 }
