@@ -29,5 +29,13 @@ namespace ProjectYP
 
             textBox6.Text = Convert.ToString(result);
         }
+
+        private void oneArgclick(object sender, EventArgs e)
+        {
+            double first = Convert.ToDouble(textBox4.Text);
+            IOneArgumentCalculator calculator = OneArgumentFactory.CreateCalculator(((Button)sender).Name);
+            double result = calculator.Calculate(first);
+            textBox6.Text = Convert.ToString(result);
+        }
     }
 }

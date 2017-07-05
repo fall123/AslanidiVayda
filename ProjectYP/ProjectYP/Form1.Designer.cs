@@ -35,6 +35,7 @@
             this.sub = new System.Windows.Forms.Button();
             this.mul = new System.Windows.Forms.Button();
             this.div = new System.Windows.Forms.Button();
+            this.bt_sin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox4
@@ -98,9 +99,20 @@
             this.div.UseVisualStyleBackColor = true;
             this.div.Click += new System.EventHandler(this.buttonClick);
             // 
+            // bt_sin
+            // 
+            this.bt_sin.Location = new System.Drawing.Point(213, 102);
+            this.bt_sin.Name = "bt_sin";
+            this.bt_sin.Size = new System.Drawing.Size(75, 23);
+            this.bt_sin.TabIndex = 7;
+            this.bt_sin.Text = "sin";
+            this.bt_sin.UseVisualStyleBackColor = true;
+            this.bt_sin.Click += new System.EventHandler(this.oneArgclick);
+            // 
             // Form1
             // 
             this.ClientSize = new System.Drawing.Size(786, 483);
+            this.Controls.Add(this.bt_sin);
             this.Controls.Add(this.div);
             this.Controls.Add(this.mul);
             this.Controls.Add(this.sub);
@@ -123,6 +135,7 @@
         private System.Windows.Forms.Button sub;
         private System.Windows.Forms.Button mul;
         private System.Windows.Forms.Button div;
+        private System.Windows.Forms.Button bt_sin;
     }
 }
 

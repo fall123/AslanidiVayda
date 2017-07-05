@@ -54,7 +54,10 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="IOneArgumentCalculator.cs" />
     <Compile Include="ITwoArgumentsCalculator.cs" />
+    <Compile Include="OneArgumentFactory.cs" />
+    <Compile Include="Sin.cs" />
     <Compile Include="TwoArgumentsFactory.cs" />
     <Compile Include="Mul.cs" />
     <Compile Include="Program.cs" />
