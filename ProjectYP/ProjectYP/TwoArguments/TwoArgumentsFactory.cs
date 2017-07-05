@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace ProjectYP
+namespace ProjectYP.TwoArguments
 {
     class TwoArgumentsFactory
     {
@@ -23,7 +19,13 @@ namespace ProjectYP
                    
                 case "div":
                     return new Div();
-                    
+
+                case "xpowery":
+                    return new xpowery();
+
+                case "logXY":
+                    return new LogXY();
+
                 default:
                     throw new Exception("Неизвестная операция");
             }

@@ -7,12 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ProjectYP.OneArgument;
+using ProjectYP.TwoArguments;
 
 namespace ProjectYP
 {
-    public partial class Form1 : Form
+    public partial class bt_tan : Form
     {
-        public Form1()
+        public bt_tan()
         {
             InitializeComponent();
         }
