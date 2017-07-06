@@ -2,7 +2,7 @@
 
 namespace ProjectYP.OneArgument
 {
-    class Sin:IOneArgumentCalculator
+    public class Sin:IOneArgumentCalculator
     {
         public double Calculate(double firstArgument)
         {

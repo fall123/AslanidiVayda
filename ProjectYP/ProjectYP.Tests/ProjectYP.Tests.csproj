@@ -44,11 +44,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OneArgument\ArccosTests.cs" />
+    <Compile Include="OneArgument\ArcctanTests.cs" />
+    <Compile Include="OneArgument\ArcsinTests.cs" />
+    <Compile Include="OneArgument\ArctanTests.cs" />
+    <Compile Include="OneArgument\CosTests.cs" />
+    <Compile Include="OneArgument\CtanTests.cs" />
+    <Compile Include="OneArgument\ExpTests.cs" />
+    <Compile Include="OneArgument\LnTests.cs" />
+    <Compile Include="OneArgument\SinTests.cs" />
+    <Compile Include="OneArgument\TanTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TwoArguments\AddTests.cs" />
     <Compile Include="TwoArguments\DivTests.cs" />
+    <Compile Include="TwoArguments\LogXYTests.cs" />
     <Compile Include="TwoArguments\MulTests.cs" />
     <Compile Include="TwoArguments\SubTests.cs" />
+    <Compile Include="TwoArguments\XpoweryTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -59,9 +71,7 @@
       <Name>ProjectYP</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="OneArgument\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

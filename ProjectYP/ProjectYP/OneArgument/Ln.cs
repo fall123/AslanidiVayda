@@ -2,7 +2,7 @@
 
 namespace ProjectYP.OneArgument
 {
-    class Ln : IOneArgumentCalculator
+    public class Ln : IOneArgumentCalculator
     {
         public double Calculate(double firstArgument)
         {

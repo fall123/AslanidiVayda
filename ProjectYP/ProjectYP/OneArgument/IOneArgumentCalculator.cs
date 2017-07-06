@@ -1,6 +1,6 @@
 ﻿namespace ProjectYP.OneArgument
 {
-    interface IOneArgumentCalculator
+    public interface IOneArgumentCalculator
     {
         double Calculate(double firstArgument);
     }

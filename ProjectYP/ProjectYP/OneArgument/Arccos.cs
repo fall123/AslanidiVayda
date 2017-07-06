@@ -2,7 +2,7 @@
 
 namespace ProjectYP.OneArgument
 {
-    class Arccos : IOneArgumentCalculator
+    public class Arccos : IOneArgumentCalculator
     {
         public double Calculate(double firstArgument)
         {

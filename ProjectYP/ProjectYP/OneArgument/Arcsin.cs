@@ -2,7 +2,7 @@
 
 namespace ProjectYP.OneArgument
 {
-    class Arcsin : IOneArgumentCalculator
+    public class Arcsin : IOneArgumentCalculator
     {
         public double Calculate(double firstArgument)
         {

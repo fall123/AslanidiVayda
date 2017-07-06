@@ -2,7 +2,7 @@
 
 namespace ProjectYP.OneArgument
 {
-    class Ctan : IOneArgumentCalculator
+    public class Ctan : IOneArgumentCalculator
     {
         public double Calculate(double firstArgument)
         {

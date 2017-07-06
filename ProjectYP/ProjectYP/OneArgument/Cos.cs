@@ -2,7 +2,7 @@
 
 namespace ProjectYP.OneArgument
 {
-    class Cos : IOneArgumentCalculator
+    public class Cos : IOneArgumentCalculator
     {
         public double Calculate(double firstArgument)
         {
