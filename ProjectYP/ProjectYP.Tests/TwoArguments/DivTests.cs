@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using System;
+using NUnit.Framework;
 using ProjectYP.TwoArguments;
 
 namespace ProjectYP.Tests.TwoArguments
@@ -15,6 +16,14 @@ namespace ProjectYP.Tests.TwoArguments
             ITwoArgumentsCalculator calculator = new Div();
             double result = calculator.Calculate(first, second);
             Assert.AreEqual(expected, result, 0.0001);
+
+        }
+
+        [Test]
+        public void DivisionByZeroTest()
+        {
+            ITwoArgumentsCalculator calculator = new Div();
+            Assert.Throws<Exception>(() => calculator.Calculate(1, 0));
         }
     }
 }
