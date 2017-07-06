@@ -2,7 +2,7 @@
 
 namespace ProjectYP.OneArgument
 {
-    class OneArgumentFactory
+    public class OneArgumentFactory
     {
         public static IOneArgumentCalculator CreateCalculator(string name)
         {

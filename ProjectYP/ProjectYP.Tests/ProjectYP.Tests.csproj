@@ -52,6 +52,7 @@
     <Compile Include="OneArgument\CtanTests.cs" />
     <Compile Include="OneArgument\ExpTests.cs" />
     <Compile Include="OneArgument\LnTests.cs" />
+    <Compile Include="OneArgument\OneArgumentFactoryTests.cs" />
     <Compile Include="OneArgument\SinTests.cs" />
     <Compile Include="OneArgument\TanTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -60,6 +61,7 @@
     <Compile Include="TwoArguments\LogXYTests.cs" />
     <Compile Include="TwoArguments\MulTests.cs" />
     <Compile Include="TwoArguments\SubTests.cs" />
+    <Compile Include="TwoArguments\TwoArgumentsFactoryTests.cs" />
     <Compile Include="TwoArguments\XpoweryTests.cs" />
   </ItemGroup>
   <ItemGroup>

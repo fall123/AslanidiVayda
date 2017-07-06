@@ -2,7 +2,7 @@
 
 namespace ProjectYP.TwoArguments
 {
-    class TwoArgumentsFactory
+    public class TwoArgumentsFactory
     {
         public static ITwoArgumentsCalculator CreateCalculator(string name)
         {
