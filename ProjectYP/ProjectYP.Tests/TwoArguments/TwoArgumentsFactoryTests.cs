@@ -19,6 +19,10 @@ namespace ProjectYP.Tests.TwoArguments
             Assert.IsInstanceOf(type, calculator);
         }
 
-    
+        [Test]
+        public void WrongCalculatorNameTest()
+        {
+            Assert.Throws<Exception>(() => TwoArgumentsFactory.CreateCalculator("BlaBla"));
+        }
     }
 }

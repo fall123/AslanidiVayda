@@ -22,14 +22,23 @@ namespace ProjectYP
 
         private void buttonClick(object sender, EventArgs e)
         {
-            double first = Convert.ToDouble(textBox4.Text);
-            double second = Convert.ToDouble(textBox5.Text);
-            ITwoArgumentsCalculator calculator = TwoArgumentsFactory.CreateCalculator(((Button)sender).Name);
-            double result = calculator.Calculate(first, second);
+            try
+            {
+                double first = Convert.ToDouble(textBox4.Text);
+                double second = Convert.ToDouble(textBox5.Text);
+                ITwoArgumentsCalculator calculator = TwoArgumentsFactory.CreateCalculator(((Button) sender).Name);
+                double result = calculator.Calculate(first, second);
+                textBox6.Text = Convert.ToString(result);
 
+            }
+            catch (Exception exc)
+            {
+                MessageBox.Show("Error: " + exc.Message);
+            } 
             
 
-            textBox6.Text = Convert.ToString(result);
+
+
         }
 
         private void oneArgclick(object sender, EventArgs e)
